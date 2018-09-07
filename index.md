@@ -11,10 +11,16 @@ Graphics Engineer @ Bandai Namco Studios
 
 Works on inhouse engine
 
+
+
 ### Posts
+
+
 
 ### Projects
 
-### Contant
+
+
+### Contact
 
 norrisust@gmail.com
