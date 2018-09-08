@@ -1,0 +1,30 @@
+---
+layout: default
+title: Home
+---
+
+<h2>Myself</h2>
+<p>Norris Chiu</p>
+<p>Graphics Engineer @ Bandai Namco Studios</p>
+
+<ul>
+  <li>Core Technology Department</li>
+  <li>Rendering engine runtime development</li>
+  <li>Work with different platforms' graphics api intensively</li>
+</ul>
+ 
+<h2>Posts</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Projects</h2>
+<p>A D3D12 toy engine built from scratch</p>
+</p><a href="https://github.com/norrischiu/DEngine">https://github.com/norrischiu/DEngine</a></p>
+
+<h2>Contact</h2>
+<p>norrisust@gmail.com</p>
